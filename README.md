@@ -16,6 +16,12 @@ templates: the templates directory that will contain files for the main blueprin
 ### IMPORTANT NOTES
 ***env*** source flask_demo/bin/activate
 
+[more_on_sessions](https://flask.palletsprojects.com/en/2.2.x/api/#sessions)
+
+[creating_secret_keys](https://www.digitalocean.com/community/tutorials/how-to-use-web-forms-in-a-flask-application#step-3-handling-form-requests)
+
+
+
 [more_on_templates](https://www.digitalocean.com/community/tutorials/how-to-use-templates-in-a-flask-application)
 
 [source](https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy)
