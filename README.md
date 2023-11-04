@@ -22,6 +22,8 @@ templates: the templates directory that will contain files for the main blueprin
 
 [changing_db_engine](https://www.digitalocean.com/community/tutorials/how-to-use-flask-sqlalchemy-to-interact-with-databases-in-a-flask-application#step-2-setting-up-the-database-and-model)
 
+[flask_sql_alchemy_config_keys](https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/)
+
 [more_on_templates](https://www.digitalocean.com/community/tutorials/how-to-use-templates-in-a-flask-application)
 
 [source](https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy)
