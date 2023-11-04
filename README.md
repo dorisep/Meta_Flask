@@ -16,5 +16,7 @@ templates: the templates directory that will contain files for the main blueprin
 ### IMPORTANT NOTES
 ***env*** source flask_demo/bin/activate
 
+[more_on_templates](https://www.digitalocean.com/community/tutorials/how-to-use-templates-in-a-flask-application)
+
 [source](https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy)
 SECRET_KEY: A long random string used by Flask as a secret key, or a key used to secure the sessions that remember information from one request to another. The user can access the information stored in the session but cannot modify it unless they have the secret key, so you must never allow anyone to access your secret key. See the Flask documentation on sessions for more information. Other Flask extensions often use this secret key to secure data. See Step 3 of How To Use Web Forms in a Flask Application for more information on how to create a secure secret key. When developing your Flask applications, you should set the secret key with an environment variable called SECRET_KEY. To get its value in this config.py file and save it in a class variable called SECRET_KEY, you access the environment variable’s value via the os.environ object using its get() method. (Though you do not need to set a secret key to follow this tutorial, you can review the note at the end of this list for instructions on how to set a secret key.)
